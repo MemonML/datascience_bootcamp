@@ -1,128 +1,63 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
-
-
-# Commenting the text
-
-
-# In[2]:
-
+# Printing Welcome
 
 name= input ()
 print ("Welcome Mr. "+ name)
 
-hours = input (")
-rateperhour = input ()
-grosspay= hours*rateperhour
-# In[3]:
 
-
-hours = input (")
-rateperhour = input ()
-grosspay= hours*rateperhour
-
-
-# In[6]:
-
+# Calculating  Gross Pay
 
 hours = int(input ("enter the hours "))
 rateperhour = int(input ("enter rate per hour "))
 grosspay= hours*rateperhour
 print ("your grosspay is", grosspay)
 
-
-# In[7]:
-
+# Celcius to Farhenheit Temprature Conversion
 
 celcius= input ("enter the celcius temprature")
-
-
-# In[10]:
-
 
 celcius= int (input ("enter the celcius temprature"))
 farhenheit= (celcius * 9/5) + 32
 print ("The Farhenheit Temprature is =", farhenheit ,"F")
 
 
-# In[20]:
-
+# Concatenation
 
 first_name= input ('Enter your first Name')
 last_name= input ('Enter your last Name')
 complete_name= first_name +" "+ last_name 
-
-
-# In[21]:
-
-
 print ('Your compelete Name is', complete_name)
 
-
-# In[22]:
 
 
 ## Expressions ##
 
 5==5
 
-
-# In[26]:
-
-
 x= 2
 y= 3
 x==y
 
-
-# In[27]:
-
+# Logical Operators
 
 x!=y
 
-
-# In[28]:
-
+# Boolean Operators
 
 x is y
-
-
-# In[29]:
-
-
 x and y
-
-
-# In[31]:
-
-
 x>0 and x<10
-
-
-# In[32]:
 
 
 not (x>y)
 
-
-# In[33]:
-
-
 not (x<y)
-
-
-# In[37]:
-
 
 x= int (input ('input an integer '))
 if x <10:
     print ('x is less than 10')
 
-
-# In[39]:
-
+# Conditional Statements if elif
 
 x=10
 y=10
@@ -134,9 +69,7 @@ else:
     print ('x and y are equal')
 
 
-# In[45]:
-
-
+# conditional Nested if else
 x=10
 y=10
 if x==y:
@@ -148,7 +81,7 @@ else :
                 print ('x and y is greated')
 
 
-# In[53]:
+# Try Except
 
 
 inp = input ('Enter Farhenheit Temprature:')
@@ -160,7 +93,7 @@ except:
     print ('Please enter a number')
 
 
-# In[63]:
+# Nest if elif 
 
 
 score= float (input ('Enter a value beterr 0.0 to 1.0'))
@@ -180,7 +113,7 @@ else:
     print ('please enter the correct value')
 
 
-# In[64]:
+# Import Library Math
 
 
 import math
@@ -192,7 +125,7 @@ print (radians)
 print (rad_sin)
 
 
-# In[65]:
+# Import library with Alias
 
 
 import math as ma
@@ -204,7 +137,7 @@ print (radians)
 print (rad_sin)
 
 
-# In[66]:
+# Import specific function from library
 
 
 from math import pi,sin
@@ -216,7 +149,7 @@ print (radians)
 print (rad_sin)
 
 
-# In[69]:
+# Random function/ randint/ randchoice
 
 
 import random
@@ -225,14 +158,10 @@ for i in range (10):
     print (x)
 
 print (x)
-# In[76]:
 
 
 t= ['Mudasar', 'Latif', 'Memon']
 random.choice(t)
-
-
-# In[77]:
 
 
 def print_fullname(first_name, last_name)
@@ -242,24 +171,19 @@ print (last_name)
 print_fullname()
 
 
-# In[78]:
-
 
 def print_fullname(first_name, last_name)
 print (first_name)
 print (last_name)
 
-
-# In[79]:
-
+# Function without return
 
 def print_fullname(first_name, last_name):
 print (first_name)
 print (last_name)
 
 
-# In[84]:
-
+# Return
 
 def print_fullname(first_name, last_name):
     print (first_name)
@@ -269,7 +193,7 @@ def print_fullname(first_name, last_name):
 print_fullname('Mudasar', 'Latif')
 
 
-# In[ ]:
+# End of First Day
 
 
 
